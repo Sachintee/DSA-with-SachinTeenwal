@@ -1,0 +1,27 @@
+class Solution:
+    def maxScore(self, s: str) -> int:
+        total_ones = s.count('1')  # Count total number of ones in the string
+        max_score = 0
+        left_zeros = 0  # Count of zeros in the left substring
+        
+        # Iterate through the string except the last character
+        for i in range(len(s) - 1):
+            if s[i] == '0':
+                left_zeros += 1  # Increment left zeros count
+            else:
+                total_ones -= 1  # Decrement total ones count
+            
+            # Calculate the score for the current split
+            current_score = left_zeros + total_ones
+            max_score = max(max_score, current_score)  # Update max score
+        
+        return max_score
+
+# Example usage
+if __name__ == "__main__":
+    solution = Solution()
+    
+    # Test cases
+    print(solution.maxScore("011101"))  # Output: 5
+    print(solution.maxScore("00111"))   # Output: 5
+    print(solution.maxScore("1111"))    # Output: 3
