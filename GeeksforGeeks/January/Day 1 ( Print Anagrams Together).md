@@ -4,7 +4,7 @@ Source: 160 Days of Problem Solving
 Tags:
   - Hash
   - Strings
----
+--- 
 
 # 🚀 _Day 1. Print Anagrams Together_ 🧠
 
