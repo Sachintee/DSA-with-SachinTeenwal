@@ -1,0 +1,20 @@
+class Solution:
+    # @param A : string
+    # @return an integer
+    def lengthOfLongestSubstring(self, A):
+        char_index_map = {}
+        max_length = 0
+        start = 0
+        
+        for end in range(len(A)):
+            if A[end] in char_index_map and char_index_map[A[end]] >= start:
+                # Move the start pointer to the right of the last occurrence
+                start = char_index_map[A[end]] + 1
+            
+            # Update the last index of the character
+            char_index_map[A[end]] = end
+            
+            # Calculate the length of the current substring
+            max_length = max(max_length, end - start + 1)
+        
+        return max_length
