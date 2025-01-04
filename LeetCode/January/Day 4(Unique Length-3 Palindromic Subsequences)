@@ -1,0 +1,37 @@
+class Solution:
+    def countPalindromicSubsequence(self, s: str) -> int:
+        # Dictionary to store the indices of each character
+        char_indices = {}
+        
+        # Populate the dictionary with character indices
+        for index, char in enumerate(s):
+            if char not in char_indices:
+                char_indices[char] = []
+            char_indices[char].append(index)
+        
+        unique_palindromes = set()  # To store unique palindromic subsequences
+        
+        # Iterate over each character in the string
+        for char in char_indices:
+            indices = char_indices[char]
+            if len(indices) < 2:
+                continue  # We need at least two occurrences to form a palindrome
+            
+            # The first and last occurrence of the character
+            first_index = indices[0]
+            last_index = indices[-1]
+            
+            # Collect unique characters between the first and last occurrence
+            unique_middle_chars = set(s[first_index + 1:last_index])
+            
+            # Form palindromic subsequences "aba" for each unique middle character
+            for middle_char in unique_middle_chars:
+                unique_palindromes.add(char + middle_char + char)
+        
+        return len(unique_palindromes)
+
+# Example usage
+solution = Solution()
+print(solution.countPalindromicSubsequence("aabca"))  # Expected output: 3
+print(solution.countPalindromicSubsequence("adc"))    # Expected output: 0
+print(solution.countPalindromicSubsequence("bbcbaba")) # Expected output: 4
