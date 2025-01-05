@@ -1,0 +1,28 @@
+class Solution:
+    def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
+        n = len(s)
+        # Create a list to keep track of the net shifts
+        net_shifts = [0] * (n + 1)
+
+        # Apply the shifts to the net_shifts array
+        for start, end, direction in shifts:
+            if direction == 1:
+                net_shifts[start] += 1  # Forward shift
+                if end + 1 < n:
+                    net_shifts[end + 1] -= 1  # Cancel shift after the end
+            else:
+                net_shifts[start] -= 1  # Backward shift
+                if end + 1 < n:
+                    net_shifts[end + 1] += 1  # Cancel shift after the end
+
+        # Calculate the cumulative shifts
+        current_shift = 0
+        result = []
+
+        for i in range(n):
+            current_shift += net_shifts[i]
+            # Calculate the new character after applying the shift
+            new_char = chr((ord(s[i]) - ord('a') + current_shift) % 26 + ord('a'))
+            result.append(new_char)
+
+        return ''.join(result)
