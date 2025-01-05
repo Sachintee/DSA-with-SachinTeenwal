@@ -1,0 +1,15 @@
+class Solution:
+    # @param A : integer
+    # @return a list of integers
+    def getRow(self, A):
+        # Initialize the row with 1s
+        row = [1] * (A + 1)
+        
+        # Calculate the values for the row
+        for i in range(1, A):
+            # Update the row from the end to the beginning
+            # This prevents overwriting values that are needed for calculations
+            for j in range(i, 0, -1):
+                row[j] = row[j] + row[j - 1]
+        
+        return row
