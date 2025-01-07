@@ -1,0 +1,20 @@
+from typing import List
+
+class Solution:
+    def stringMatching(self, words: List[str]) -> List[str]:
+        result = set()  # Use a set to avoid duplicates
+        
+        # Iterate through each word
+        for i in range(len(words)):
+            for j in range(len(words)):
+                # Check if the word is a substring of another word
+                if i != j and words[i] in words[j]:
+                    result.add(words[i])
+        
+        return list(result)  # Convert the set back to a list
+
+# Example usage:
+solution = Solution()
+print(solution.stringMatching(["mass", "as", "hero", "superhero"]))  # Output: ["as", "hero"]
+print(solution.stringMatching(["leetcode", "et", "code"]))           # Output: ["et", "code"]
+print(solution.stringMatching(["blue", "green", "bu"]))              # Output: []
