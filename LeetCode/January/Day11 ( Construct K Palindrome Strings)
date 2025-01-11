@@ -1,0 +1,16 @@
+from collections import Counter
+
+class Solution:
+    def canConstruct(self, s: str, k: int) -> bool:
+        char_count = Counter(s)
+        odd_count = sum(1 for count in char_count.values() if count % 2 != 0)
+        
+        # We can have at most `odd_count` palindromes with odd characters
+        # and we can use pairs from even counts to fill the rest
+        return odd_count <= k <= len(s)
+
+# Example usage:
+solution = Solution()
+print(solution.canConstruct("annabelle", 2))  # Output: True
+print(solution.canConstruct("leetcode", 3))    # Output: False
+print(solution.canConstruct("true", 4))         # Output: True
