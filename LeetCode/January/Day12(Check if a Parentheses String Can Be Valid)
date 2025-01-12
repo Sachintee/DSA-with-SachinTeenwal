@@ -1,0 +1,29 @@
+class Solution:
+    def canBeValid(self, s: str, locked: str) -> bool:
+        # If the length of the string is odd, it can never be valid
+        if len(s) % 2 != 0:
+            return False
+        
+        # Check balance from left to right
+        open_balance = 0
+        for i in range(len(s)):
+            if locked[i] == '0' or s[i] == '(':
+                open_balance += 1
+            else:
+                open_balance -= 1
+            
+            if open_balance < 0:
+                return False
+        
+        # Check balance from right to left
+        close_balance = 0
+        for i in range(len(s) - 1, -1, -1):
+            if locked[i] == '0' or s[i] == ')':
+                close_balance += 1
+            else:
+                close_balance -= 1
+            
+            if close_balance < 0:
+                return False
+        
+        return True
