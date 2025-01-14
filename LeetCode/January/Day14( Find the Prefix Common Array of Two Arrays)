@@ -1,0 +1,21 @@
+from typing import List
+
+class Solution:
+    def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
+        common_count = []
+        seen_A = set()
+        seen_B = set()
+        
+        for i in range(len(A)):
+            seen_A.add(A[i])
+            seen_B.add(B[i])
+            # Count common elements
+            common_elements = seen_A.intersection(seen_B)
+            common_count.append(len(common_elements))
+        
+        return common_count
+
+# Example usage:
+solution = Solution()
+print(solution.findThePrefixCommonArray([1, 3, 2, 4], [3, 1, 2, 4]))  # Output: [0, 2, 3, 4]
+print(solution.findThePrefixCommonArray([2, 3, 1], [3, 1, 2]))        # Output: [0, 1, 3]
