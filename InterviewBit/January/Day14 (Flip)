@@ -1,0 +1,31 @@
+class Solution:
+    # @param A : string
+    # @return a list of integers
+    def flip(self, A):
+        n = len(A)
+        max_gain = 0  # Maximum gain achievable
+        current_gain = 0  # Current gain while iterating
+        start = 0  # Start of the current subarray
+        best_start = -1  # Start index of the best subarray
+        best_end = -1  # End index of the best subarray
+
+        for i in range(n):
+            # Convert '0' to +1 (gain in `1`s) and '1' to -1 (loss in `1`s)
+            value = 1 if A[i] == '0' else -1
+            current_gain += value
+
+            if current_gain > max_gain:
+                max_gain = current_gain
+                best_start = start
+                best_end = i
+            elif current_gain < 0:
+                # Reset current subarray
+                current_gain = 0
+                start = i + 1
+
+        # If no flipping increases the number of `1`s, return an empty list
+        if best_start == -1:
+            return []
+
+        # Return 1-based indices
+        return [best_start + 1, best_end + 1]
