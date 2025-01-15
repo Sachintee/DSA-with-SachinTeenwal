@@ -1,0 +1,22 @@
+class Solution:
+    # @param A : list of integers
+    # @return an integer
+    def solve(self, A):
+        # Sort the array
+        A.sort()
+        n = len(A)
+
+        for i in range(n):
+            # Skip duplicates
+            if i < n - 1 and A[i] == A[i + 1]:
+                continue
+
+            # Check if the number of elements greater than A[i] equals A[i]
+            if A[i] == n - i - 1:
+                return 1
+
+        # Edge case: Check if 0 exists and there are no positive integers
+        if A[-1] == 0:
+            return 1
+
+        return -1
