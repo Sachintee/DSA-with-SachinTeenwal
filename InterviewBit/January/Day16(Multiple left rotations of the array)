@@ -1,0 +1,14 @@
+class Solution:
+    # @param A : list of integers
+    # @param B : list of integers
+    # @return a list of list of integers
+    def solve(self, A, B):
+        n = len(A)
+        result = []
+        
+        for b in B:
+            rotations = b % n  # Optimize the number of rotations
+            rotated_array = A[rotations:] + A[:rotations]
+            result.append(rotated_array)
+        
+        return result
