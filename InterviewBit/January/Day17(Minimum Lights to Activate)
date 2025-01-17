@@ -1,0 +1,25 @@
+class Solution:
+    # @param A : list of integers
+    # @param B : integer
+    # @return an integer
+    def solve(self, A, B):
+        n = len(A)
+        lights = 0  # To count the minimum number of lights
+        i = 0  # Start from the beginning of the corridor
+
+        while i < n:
+            # Find the farthest light that can cover position i
+            light_found = False
+            for j in range(min(n - 1, i + B - 1), max(-1, i - B), -1):
+                if A[j] == 1:
+                    # Turn on the light at position j
+                    lights += 1
+                    light_found = True
+                    # Move i to the position right after the range of the current light
+                    i = j + B
+                    break
+            
+            if not light_found:
+                return -1
+        
+        return lights
