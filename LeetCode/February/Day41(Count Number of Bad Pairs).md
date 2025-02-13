@@ -1,7 +1,7 @@
 --- ❤️ ---
 
-# 🚀 _Day 40. Count Number of Bad Pairs_ 🧠
-
+# 🚀 _Day 41. Count Number of Bad Pairs_ 🧠
+ 
 
 The problem can be found at the following link: [Problem Link](https://leetcode.com/problems/count-number-of-bad-pairs/description/?envType=daily-question&envId=2025-02-09)
 
