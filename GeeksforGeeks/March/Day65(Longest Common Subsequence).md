@@ -2,7 +2,7 @@
 Difficulty: Medium  
 Source: 160 Days of Problem Solving  
 Tags:
-  - Dynamic Programming
+  - Dynamic Programming 
 ---
 
 # 🚀 _Day 65. Longest Common Subsequence_ 🧠
