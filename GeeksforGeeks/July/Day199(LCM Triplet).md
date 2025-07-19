@@ -19,20 +19,33 @@ The goal is to find three numbers ≤ n such that their LCM is maximized.
 
 ## Code(C++)
 ```cpp
-
-
+class Solution {
+public:
+    int lcmTriplets(int n) {
+        return n < 3 ? n : n & 1 ? n * (n - 1) * (n - 2) : 
+               n % 3 ? n * (n - 1) * (n - 3) : (n - 1) * (n - 2) * (n - 3);
+    }
+};
 ```
 
 ## Code (Java)
 
 ```java
-
+class Solution {
+    int lcmTriplets(int n) {
+        return n < 3 ? n : (n & 1) == 1 ? n * (n - 1) * (n - 2) : 
+               n % 3 != 0 ? n * (n - 1) * (n - 3) : (n - 1) * (n - 2) * (n - 3);
+    }
+}
 ```
 
 ## Code (Python)
 
 ```python
-
+class Solution:
+    def lcmTriplets(self, n):
+        return n if n < 3 else n * (n - 1) * (n - 2) if n & 1 else \
+               n * (n - 1) * (n - 3) if n % 3 else (n - 1) * (n - 2) * (n - 3)
 ```
 
 
