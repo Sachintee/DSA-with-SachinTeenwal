@@ -5,7 +5,7 @@ description: "✅ GFG solution to the Sort by Absolute Difference problem: rearr
 date: 📅 2025-08-17
 ---
 
-# *228. Sort by Absolute Difference*
+# *229. Sort by Absolute Difference*
 
 The problem can be found at the following link: 🔗 [Question Link](https://www.geeksforgeeks.org/problems/sort-by-absolute-difference-1587115621/1)
 
