@@ -1,6 +1,6 @@
 --- ❤️ ---
 
-# 🚀 _Day 228. Min Sum Path in Triangle_ 🧠
+# 🚀 _Day 229. Min Sum Path in Triangle_ 🧠
 
 
 The problem can be found at the following link: [Problem Link](https://www.interviewbit.com/problems/min-sum-path-in-triangle/)
