@@ -1,0 +1,44 @@
+--- ❤️ ---
+
+# 🚀 _Day 336. Frequency of Characters_ 🧠
+
+
+The problem can be found at the following link: [Problem Link](https://www.interviewbit.com/problems/frequency-of-characters/)
+
+## 🎯 **My Approach:**
+
+
+## Code(C++)
+```cpp
+
+```
+
+## Code (Java)
+
+```java
+
+```
+
+## Code (Python)
+
+```python
+class Solution:
+    def solve(self, A):
+        freq = [0] * 26
+        
+        for ch in A:
+            freq[ord(ch) - ord('a')] += 1
+        
+        return freq
+
+```
+
+
+
+## 🎯 **Contribution and Support:**
+
+For discussions, questions, or doubts related to this solution, feel free to connect on Twitter(x): [Any Questions] (https://x.com/Sachin_Teenwal) Let’s make this learning journey more collaborative!
+
+⭐ If you find this helpful, please give this repository a star! ⭐
+
+---
