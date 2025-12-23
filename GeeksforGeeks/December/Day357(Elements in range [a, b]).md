@@ -1,6 +1,6 @@
 --- ❤️ ---
 
-# 🚀 _Day 356. Elements in range [a, b]_ 🧠
+# 🚀 _Day 357. Elements in range [a, b]_ 🧠
 
 
 The problem can be found at the following link: [Problem Link](https://www.geeksforgeeks.org/problems/find-number-of-elements-in-range-a-b-for-each-query/1)
