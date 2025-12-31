@@ -1,6 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=DSA%20with%20Sachin%20Teenwal&fontSize=38&fontColor=ffffff&fontAlignY=40" />
-
 <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=35c4ff,50:203a43,100:2c5364&height=220&section=header&text=DSA%20with%20Sachin%20Teenwal&fontSize=38&fontColor=ffffff&fontAlignY=40" />
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=36BCF7&center=true&vCenter=true&width=850&lines=Daily+DSA+Challenge+2025;GeeksforGeeks+%7C+LeetCode+%7C+InterviewBit;Consistency+Beats+Motivation" />
 </p>
 
@@ -51,9 +50,12 @@
 ## 🧩 Platforms & Analytics
 
 ### 🔵 LeetCode
+### 🔵 LeetCode Dashboard
+
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Baloo&ext=heatmap" />
+  <img src="https://leetcard.jacoblin.cool/Sachin_Teenwal?theme=dark&font=Baloo&ext=heatmap" />
 </p>
+
 
 ---
 
