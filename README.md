@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=35c4ff,50:203a43,100:2c5364&height=220&section=header&text=DSA%20with%20Sachin%20Teenwal&fontSize=38&fontColor=ffffff&fontAlignY=40" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0092ff,0092ff,0092ff&height=220&section=header&text=DSA%20with%20Sachin%20Teenwal&fontSize=38&fontColor=ffffff&fontAlignY=40" />
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=36BCF7&center=true&vCenter=true&width=850&lines=Daily+DSA+Challenge+2025;GeeksforGeeks+%7C+LeetCode+%7C+InterviewBit;Consistency+Beats+Motivation" />
 </p>
 
@@ -87,21 +87,6 @@ https://www.interviewbit.com/profile/sachin-teenwal/
 
 ---
 
-## 📈 DSA Progress Dashboard
-
-### Overall Completion
-![Progress](https://progress-bar.dev/35/?title=Overall%20Progress&width=600)
-
-### Topic-wise Progress
-Arrays               ![](https://progress-bar.dev/70/?width=400)  
-Strings              ![](https://progress-bar.dev/60/?width=400)  
-Linked List          ![](https://progress-bar.dev/55/?width=400)  
-Stack & Queue        ![](https://progress-bar.dev/50/?width=400)  
-Trees                ![](https://progress-bar.dev/45/?width=400)  
-Graphs               ![](https://progress-bar.dev/35/?width=400)  
-Dynamic Programming  ![](https://progress-bar.dev/30/?width=400)  
-
----
 
 ## 🧠 Problem-Solving Approach
 
@@ -135,6 +120,6 @@ Dynamic Programming  ![](https://progress-bar.dev/30/?width=400)
 > ⭐ **Consistency beats talent when talent doesn’t stay consistent.**  
 This repo reflects my **daily growth & discipline in DSA**.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=150&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0092ff,0092ff,0092ff&height=150&section=footer" />
 
 
