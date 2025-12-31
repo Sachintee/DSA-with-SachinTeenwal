@@ -46,7 +46,7 @@
 
 ### 🟢 GeeksforGeeks
 <p align="center">
-  <img src="https://geeks-for-geeks-stats-api.vercel.app/?userName=sachinteenwal" />
+  <img src="https://geeks-for-geeks-stats-api.vercel.app/?userName=sachinteenwal?tab=activity" />
 </p>
 
 ### 🟠 InterviewBit
