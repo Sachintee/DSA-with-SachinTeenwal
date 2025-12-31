@@ -59,7 +59,7 @@
 ### 🟢 GeeksforGeeks Analytics
 <p align="center">
   <a href="https://www.geeksforgeeks.org/profile/sachinteenwal?tab=overview">
-    <img src="https://geeks-for-geeks-stats-api.vercel.app/?userName=sachinteenwal" />
+    <img src="https://img.shields.io/badge/GeeksforGeeks-View%20Profile-darkgreen?style=for-the-badge&logo=geeksforgeeks" />
   </a>
 </p>
 
@@ -71,7 +71,7 @@ https://www.geeksforgeeks.org/profile/sachinteenwal?tab=overview
 ### 🟠 InterviewBit Analytics
 <p align="center">
   <a href="https://www.interviewbit.com/profile/sachin-teenwal/">
-    <img src="https://img.shields.io/badge/InterviewBit-Profile-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/InterviewBit-View%20Profile-blue?style=for-the-badge" />
   </a>
 </p>
 
@@ -133,5 +133,5 @@ Dynamic Programming  ![](https://progress-bar.dev/30/?width=400)
 This repo reflects my **daily growth & discipline in DSA**.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=150&section=footer" />
-📂 Repository Structure
+
 
