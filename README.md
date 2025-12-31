@@ -1,61 +1,86 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=DSA%20with%20Sachin%20Teenwal&fontSize=38&fontColor=ffffff&fontAlignY=40" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=36BCF7&center=true&vCenter=true&width=850&lines=Daily+DSA+Challenge+2025;GeeksforGeeks+%7C+LeetCode+%7C+InterviewBit;Consistency+Beats+Motivation;Learning+in+Public" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=36BCF7&center=true&vCenter=true&width=850&lines=Daily+DSA+Challenge+2025;GeeksforGeeks+%7C+LeetCode+%7C+InterviewBit;Consistency+Beats+Motivation" />
 </p>
 
 ---
 
 ## 🎯 About This Challenge
 
-🚀 Starting **01/01/2025**, I committed to solving **at least 3 DSA problem daily** to:
+🚀 Started on **01/01/2025**, this repository documents my **daily DSA journey** to:
 
-- Strengthen problem-solving fundamentals  
+- Strengthen problem-solving skills  
 - Master core Data Structures & Algorithms  
 - Prepare for technical interviews  
-- Build discipline & long-term consistency  
+- Build long-term consistency  
 
-📌 Solutions uploaded **daily on GitHub**  
+📌 Solutions uploaded **daily**  
 📌 Learnings shared on **X (Twitter)**  
 
 ---
 
-## 🏆 Badges & Commitment
+## 🏆 Badges & Achievements (LeetCode GIFs)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/DSA-Daily-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Challenge-2025-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Consistency-365%20Days-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img src="./badges/Leetcode50.gif" width="90" />
+  <img src="./badges/Leetcode100.gif" width="90" />
+  <img src="./badges/Leetcode200.gif" width="90" />
+  <img src="./badges/Leetcode2025.gif" width="90" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/LeetCode-Active-orange?style=for-the-badge&logo=leetcode" />
-  <img src="https://img.shields.io/badge/GeeksforGeeks-Active-darkgreen?style=for-the-badge&logo=geeksforgeeks" />
-  <img src="https://img.shields.io/badge/InterviewBit-Active-blue?style=for-the-badge" />
+  <img src="./badges/Leetcode202501.gif" width="90" />
+  <img src="./badges/Leetcode202502.gif" width="90" />
+  <img src="./badges/Leetcode202504.gif" width="90" />
+  <img src="./badges/Leetcode202505.gif" width="90" />
+  <img src="./badges/Leetcode202506.gif" width="90" />
+  <img src="./badges/Leetcode202507.gif" width="90" />
+  <img src="./badges/Leetcode202508.gif" width="90" />
+  <img src="./badges/Leetcode202509.gif" width="90" />
+  <img src="./badges/Leetcode202510.gif" width="90" />
+  <img src="./badges/Leetcode202511.gif" width="90" />
+  <img src="./badges/Leetcode202512.gif" width="90" />
+</p>
+
+> 🏅 **LeetCode Milestones & Monthly Streak Badges**
+
+---
+
+## 🧩 Platforms & Analytics
+
+### 🔵 LeetCode
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Baloo&ext=heatmap" />
 </p>
 
 ---
 
-## 📊 Live Coding Stats
-
-### 🔵 LeetCode
+### 🟢 GeeksforGeeks Analytics
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Sachin_Teenwal?theme=dark&font=Baloo&ext=heatmap" />
+  <a href="https://www.geeksforgeeks.org/profile/sachinteenwal?tab=overview">
+    <img src="https://geeks-for-geeks-stats-api.vercel.app/?userName=sachinteenwal" />
+  </a>
 </p>
 
-### 🟢 GeeksforGeeks
+🔗 **Profile:**  
+https://www.geeksforgeeks.org/profile/sachinteenwal?tab=overview
+
+---
+
+### 🟠 InterviewBit Analytics
 <p align="center">
-  <img src="https://geeks-for-geeks-stats-api.vercel.app/?userName=sachinteenwal?tab=activity" />
+  <a href="https://www.interviewbit.com/profile/sachin-teenwal/">
+    <img src="https://img.shields.io/badge/InterviewBit-Profile-blue?style=for-the-badge" />
+  </a>
 </p>
 
-### 🟠 InterviewBit
-- Structured DSA roadmap  
-- Company-wise interview problems  
-- Daily consistency  
+🔗 **Profile:**  
+https://www.interviewbit.com/profile/sachin-teenwal/
 
-**Problems Solved:** Updating Daily  
-**Focus:** Arrays, Binary Search, Trees, DP  
+✔ Structured roadmap  
+✔ Company-wise problems  
+✔ Interview-oriented practice  
 
 ---
 
@@ -75,27 +100,17 @@ Dynamic Programming  ![](https://progress-bar.dev/30/?width=400)
 
 ---
 
-## 🧠 My Problem-Solving Approach
+## 🧠 Problem-Solving Approach
 
 1. Understand constraints & edge cases  
-2. Brute force → optimized thinking  
-3. Apply best-fit DSA technique  
-4. Write clean, readable code  
+2. Brute force → optimized solution  
+3. Apply correct DSA technique  
+4. Write clean & readable code  
 5. Analyze time & space complexity  
-6. Share insights publicly  
 
 ---
 
----
-
-## 💻 Languages & Tools
-
-- C++
-- Java
-- Python3
-- Core DSA
-- Git & GitHub
-
+## 
 ---
 
 ## 🔗 Connect With Me
@@ -104,10 +119,10 @@ Dynamic Programming  ![](https://progress-bar.dev/30/?width=400)
   <a href="https://github.com/Sachintee">
     <img src="https://img.shields.io/badge/GitHub-Sachintee-black?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://x.com/YOUR_HANDLE">
+  <a href="https://x.com/Sachin_Teenwal">
     <img src="https://img.shields.io/badge/X-Twitter-blue?style=for-the-badge&logo=twitter" />
   </a>
-  <a href="https://linkedin.com/in/YOUR_PROFILE">
+  <a href="https://linkedin.com/in/Sachin_Teenwal">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
   </a>
 </p>
@@ -115,8 +130,8 @@ Dynamic Programming  ![](https://progress-bar.dev/30/?width=400)
 ---
 
 > ⭐ **Consistency beats talent when talent doesn’t stay consistent.**  
-This repository documents my **daily growth as a problem solver**.
+This repo reflects my **daily growth & discipline in DSA**.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=150&section=footer" />
-
+📂 Repository Structure
 
