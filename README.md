@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0092ff,0092ff,0092ff&height=220&section=header&text=DSA%20with%20Sachin%20Teenwal&fontSize=38&fontColor=ffffff&fontAlignY=40" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0092ff,100:00c6ff&height=220&section=header&text=DSA%20with%20Sachin%20Teenwal&fontSize=38&fontColor=ffffff&fontAlignY=40" />
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=36BCF7&center=true&vCenter=true&width=850&lines=Daily+DSA+Challenge+2025;GeeksforGeeks+%7C+LeetCode+%7C+InterviewBit;Consistency+Beats+Motivation" />
 </p>
 
