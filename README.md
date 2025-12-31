@@ -32,6 +32,7 @@
 <p align="center">
   <img src="./badges/Leetcode202501.gif" width="90" />
   <img src="./badges/Leetcode202502.gif" width="90" />
+  <img src="./badges/Leetcode202503.gif" width="90" />
   <img src="./badges/Leetcode202504.gif" width="90" />
   <img src="./badges/Leetcode202505.gif" width="90" />
   <img src="./badges/Leetcode202506.gif" width="90" />
